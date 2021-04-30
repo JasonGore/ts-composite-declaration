@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./lib",
+    "rootDir": "src"
+  },
+  "include": ["src"],
+  "references": [
+    {
+      "path": "../emit-composite/tsconfig.json"
+    }
+  ]
+}
